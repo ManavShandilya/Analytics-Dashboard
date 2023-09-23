@@ -1,0 +1,143 @@
+/************** Fonts ***************/
+
+@font-face {
+  font-family: 'Solanel-Medium';
+  src: url('./assets/Fonts/solanel-medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Solanel-Regular';
+  src: url('./assets/Fonts/solanel-regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/************ General CSS ************/
+
+.App {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 50px 5px 70px 5px;
+  font-family: Solanel-Regular;
+  letter-spacing: 0.05em;
+}
+
+.custom-card {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1), 5px 0px 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px;
+  padding: 40px 40px 40px 40px;
+  margin-top: 55px;
+}
+
+.bold {
+  font-family: 'Solanel-Medium';
+}
+
+p {
+  padding-top: 8px;
+
+}
+
+/************ Header CSS ************/
+
+.nav {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), -5px 0 8px rgba(0, 0, 0, 0.05);
+  padding: 6px 12px 6px 0px;
+  border-radius: 8px;
+}
+
+.nav .nav-link {
+ color:rgba(0, 0, 0, 0.488);
+ background-color:rgba(74, 74, 74, 0.037);
+ margin-left: 12px;
+ font-weight: bold;
+ border-radius: 12px !important;
+ padding: 5px 15px 5px 15px;
+ font-size: 20px;
+}
+
+.nav .nav-link.active {
+  background-color: rgba(74, 74, 74, 0.167) !important; 
+  color:rgba(0, 0, 0, 0.552) !important;
+}
+
+.nav .nav-link:hover {
+  background-color: rgba(74, 74, 74, 0.167); 
+  color: rgba(0, 0, 0, 0.552);
+}
+
+/************ BarChart CSS ************/
+
+.chart {
+  height: 270px;
+  width: 100%;
+}
+
+.user-icon {
+  font-size:33px;
+  margin-left:10px;
+}
+
+/************ Insights CSS ************/
+
+.insights {
+  display: flex;
+  align-items: center;
+  margin-bottom: -10px;
+}
+
+.down-arrow {
+  color: rgba(255, 41, 41, 0.77);
+  margin-right: 14px;
+}
+
+.up-arrow {
+  color: rgba(61, 252, 88, 0.78);
+  margin-right: 14px;
+}
+
+.light-bulb {
+  margin-right: 14px;
+  background-color: rgba(255, 229, 51, 0.86);
+  padding: 10px;
+  font-size: 19px;
+  border-radius: 7px;
+}
+
+/************ Statistics CSS ************/
+
+.statistics {
+  padding-top: 40px;
+}
+
+.data {
+  padding-top:18px;
+}
+
+.custom-button, .toggle-button {
+  border: 0;
+  border-radius: 8px;
+}
+
+.custom-button {
+  margin-top: 18px;
+  margin-bottom: -10px;
+  padding: 8px 22px 8px 22px;
+  font-family: 'Solanel-Medium';
+}
+
+.toggle-button {
+  background-color: white;
+  padding: 2px 22px 2px 22px;
+}
+
+.toggle-button.selected {
+  background-color: #f0f0f0;
+  font-family: 'Solanel-Medium';
+}
+
+.leaderboard {
+  font-size: 18px;
+}
